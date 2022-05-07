@@ -1,5 +1,5 @@
 ---
   - name: i want to create a file 
     file:
-      path: /etc/ubuntu/myfile
+      path: /etc/pava/myfile
       state: touch
