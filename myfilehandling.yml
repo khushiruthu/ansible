@@ -3,7 +3,7 @@
   become: yes
   tasks:
   - include_tasks: myfiles.yml
-  - name: i want install server
+  - name: i want install webserver
     apt: 
       name: apache2
       state: present
